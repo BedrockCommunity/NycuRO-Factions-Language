@@ -13,6 +13,10 @@ import nycuro.API;
  */
 public class MessageAPI {
 
+    /** Info:
+     * 0: English.
+     * 1: Romania.
+     */
     public void sendAbuseMessage(Player player) {
         if ((int) API.getMainAPI().config.get(player.getName()) == 0) {
             player.sendMessage("§7(§3!§7) §4Error: §7You abuse! That's not good..");
